@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Formularz from "./components/formularze/Formularz.tsx";
+import Ternary from "./components/inne/Ternary.tsx";
 
 function App() {
   return (
     <>
-      <Formularz />
+      <Ternary />
     </>
   );
 }
