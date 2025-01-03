@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Ternary from "./components/inne/Ternary.tsx";
+import Aktualizacja from "./components/inne/Aktualizacja.tsx";
 
 function App() {
   return (
     <>
-      <Ternary />
+      <Aktualizacja />
     </>
   );
 }
