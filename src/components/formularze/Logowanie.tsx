@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 function Logowanie() {
-  const [username, setUsername] = useState<String | null>("");
-  const [password, setPassword] = useState<String | null>("");
-  const [repeatedPassword, setRepeatedPassword] = useState<String | null>("");
+  const [username, setUsername] = useState<String>("");
+  const [password, setPassword] = useState<String>("");
+  const [repeatedPassword, setRepeatedPassword] = useState<String>("");
   const Przycisk = () => {
     const empty =
       username?.length === 0 ||

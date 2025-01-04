@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 function Haslo() {
-  const [password, setPassword] = useState<String | null>("");
-  const [repeatedPassword, setRepeatedPassword] = useState<String | null>("");
+  const [password, setPassword] = useState<String>("");
+  const [repeatedPassword, setRepeatedPassword] = useState<String>("");
   const message = () => {
     if (password?.length === 0 || repeatedPassword?.length === 0)
       return "Prosze wprowadzić hasło";

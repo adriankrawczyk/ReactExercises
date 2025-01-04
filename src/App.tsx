@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import StudentManager from "./components/studenci/StudentManager.tsx";
+import Odliczanie from "./components/efekty/Odliczanie.tsx";
 
 function App() {
   return (
     <>
-      <StudentManager />
+      <Odliczanie />
     </>
   );
 }

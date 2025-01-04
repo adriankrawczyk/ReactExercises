@@ -16,7 +16,7 @@ function Studenci() {
       <table>
         {Students.map(({ imie, nazwisko, rocznik }: Student) => {
           return (
-            <tr>
+            <tr key={`${imie} ${nazwisko} ${rocznik.toString()}`}>
               <td>{imie}</td>
               <td>{nazwisko}</td>
               <td>{rocznik}</td>
