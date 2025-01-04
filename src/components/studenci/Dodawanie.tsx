@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Student from "./Student.tsx";
+import Student from "./Student.ts";
 
 function Dodawanie({ students, setStudents }) {
   const [imie, setImie] = useState<String | null>("");

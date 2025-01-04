@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Odliczanie from "./components/efekty/Odliczanie.tsx";
+import Komentarze from "./components/produkty/Komentarze.tsx";
 
 function App() {
   return (
     <>
-      <Odliczanie />
+      <Komentarze />
     </>
   );
 }

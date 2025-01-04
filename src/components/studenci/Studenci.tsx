@@ -1,11 +1,7 @@
 import React from "react";
+import Student from "./Student.ts";
 
 function Studenci() {
-  interface Student {
-    imie: String;
-    nazwisko: String;
-    rocznik: number;
-  }
   const Students: Student[] = [
     { imie: "Adrian", nazwisko: "Krawczyk", rocznik: 2003 },
     { imie: "Piotr", nazwisko: "Błaszczyk", rocznik: 2002 },
