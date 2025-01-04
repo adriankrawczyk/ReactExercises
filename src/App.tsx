@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Aktualizacja from "./components/inne/Aktualizacja.tsx";
+import StudentManager from "./components/studenci/StudentManager.tsx";
 
 function App() {
   return (
     <>
-      <Aktualizacja />
+      <StudentManager />
     </>
   );
 }
