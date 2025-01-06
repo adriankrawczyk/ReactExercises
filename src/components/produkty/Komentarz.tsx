@@ -68,9 +68,8 @@ function Komentarz({ comment }: { comment: Comment }) {
   const {
     id,
     body,
-    postId,
     likes,
-    user: { userId, username, fullName },
+    user: { username },
   } = comment;
 
   useEffect(() => {
